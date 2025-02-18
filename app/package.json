@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
     "express": "^4.21.2"
   },
@@ -7,7 +8,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www.js", 
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Minjung Kim",
@@ -15,7 +16,6 @@
   "bin": {
     "node": "bin/www.js"
   },
-  "devDependencies": {},
   "keywords": [],
   "description": ""
 }
