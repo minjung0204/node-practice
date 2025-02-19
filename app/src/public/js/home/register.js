@@ -15,7 +15,6 @@ function register(){
     const req = {
         id: id.value,
         name: name.value,
-        psword: psword.value,
         confirmPsword: confirmPsword.value,
     };
 
