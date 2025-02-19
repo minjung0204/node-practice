@@ -15,7 +15,7 @@ function register(){
     const req = {
         id: id.value,
         name: name.value,
-        confirmPsword: confirmPsword.value,
+        psword: psword.value,
     };
 
     fetch("/register", {
